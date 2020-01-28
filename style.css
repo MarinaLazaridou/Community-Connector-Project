@@ -1,0 +1,168 @@
+
+/* Author: Marina Lazaridou */
+/* Subject: Connecting Communities Mapping Project */
+/* File Format: CSS */
+
+
+/* Start script */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+	
+	
+#map {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+h1 {
+	font-family: Tahoma, Franklin Gothic Medium, Trebuchet MS;
+	display: block;
+	text-align: center;
+	font-size : 4em;
+	margin-top: 0;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	color: #FFD700;
+	font-weight: bold;
+}
+
+p {
+	font-family: Franklin Gothic Medium, Tahoma, Trebuchet MS;
+	font-size: 1em;
+	color: #FFD700;
+	margin-left: 18em;
+	margin-right: 20em;
+	text-align: justify;
+	font-weight:lighter;
+}
+
+
+/* Search button */ 
+
+.search-input {
+	font-family:Courier
+}
+.search-input,
+.leaflet-control-search {
+	max-width:400px;
+}
+
+
+/* Event Listeners */
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+
+
+/* Style the info box */
+
+.info {
+	padding: 6px 8px;
+	font: 10px/12px 'Open Sans', Helvetica, sans-serif;
+	background: rgba(227, 234, 234, 0.9);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-color: #5f5f5f;
+	text-transform: none;
+	border: 1.5px outset red;
+}
+
+.info h3 {
+	font-size:11px;
+	margin: 0 0 5px;
+	color: #028482;
+	font-weight: bold;
+	text-transform: none;
+	text-decoration: underline;
+	text-align: center;
+	line-height:11px;
+}
+
+.info h4 {
+	margin: 0 0 5px;
+	color: #292929;
+	font-weight: lighter;
+	opacity: 0.7;
+	text-align: center;
+	font-style: italic;
+}
+
+.info h5 {
+	font-size:15px;
+	margin: 0 0 5px;
+	color: black;
+	font-weight: bold;
+	text-transform: none;
+	text-align: normal;
+	line-height:3px;
+}
+
+.info h7 {
+	font-size:8px;
+	margin: 0 0 5px;
+	color: #363434;
+	font-weight: bolder;
+	text-transform: none;
+	text-align: normal;
+}
+
+.info h8 {
+	font-size:14px;
+	margin: 0 0 5px;
+	color: black;
+	font-weight: bold;
+	text-transform: none;
+	text-align: center;
+	line-height:10px;
+}
+
+/* Logo */
+
+#logoContainer {
+	position: fixed;
+	z-index: 100;
+	bottom: 30px;
+	left: 0px;
+	background-image: url("BRC_logo_sm.png");
+	width: 70px;
+	height: 47px;
+	opacity:0.85;
+}
+
+/* Title */
+
+#mapTitle {
+	position: fixed;
+	z-index: 100;
+	top: 10px;
+	left: 70px;
+	width: 303px;
+	height: 35px;
+	opacity:0.85;
+	background-color: rgba(227, 234, 234);
+	background-opacity: 0.5;
+	border: 1.5px outset red;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: none;
+	border-radius: 10px;
+}
+
+/* End of script */
